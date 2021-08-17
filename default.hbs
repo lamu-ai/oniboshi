@@ -31,14 +31,9 @@
                 </nav>
 
                 <div class="gh-head-actions">
-                    {{#unless @member}}
-                        <a class="gh-head-btn" href="#/portal/signup">
-                            {{> icons/email}}
-                            Subscribe
-                        </a>
-                    {{else}}
+                    {{#if @member}}
                         <a class="gh-head-btn" href="#/portal/account">Account</a>
-                    {{/unless}}
+                    {{/if}}
                 </div>
             </div>
         </header>
