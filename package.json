@@ -1,6 +1,6 @@
 {
-    "name": "journal",
-    "description": "A Ghost theme",
+    "name": "oniboshi",
+    "description": "A Ghost theme made for Lamù.AI, inspired by Journal",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=4.0.0",
@@ -8,9 +8,9 @@
     },
     "license": "MIT",
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Greta Renzi",
+        "email": "greta@lamu.ai",
+        "url": "https://lamu.ai"
     },
     "keywords": [
         "ghost",
