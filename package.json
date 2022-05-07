@@ -3,8 +3,7 @@
     "description": "A Ghost theme made for Lamù.AI, inspired by Journal",
     "version": "1.0.0",
     "engines": {
-        "ghost": ">=4.0.0",
-        "ghost-api": "v4"
+        "ghost": ">=4.0.0"
     },
     "license": "MIT",
     "author": {
@@ -37,6 +36,19 @@
             },
             "xxl": {
                 "width": 2000
+            }
+        },
+        "card_assets": true,
+        "custom": {
+            "title_font": {
+                "type": "select",
+                "options": ["Modern sans-serif", "Elegant serif"],
+                "default": "Modern sans-serif"
+            },
+            "body_font": {
+                "type": "select",
+                "options": ["Modern sans-serif", "Elegant serif"],
+                "default": "Modern sans-serif"
             }
         }
     }

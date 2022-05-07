@@ -37,16 +37,20 @@
                 <h2 class="gh-section-title">More issues</h2>
 
                 <div class="gh-feed">
-                    {{#foreach posts}}
-                        {{^is "paged"}}
-                            {{^has index="0"}}
-                                {{> loop}}
-                            {{/has}}
-                        {{else}}
+                    {{^is "paged"}}
+                        {{#foreach posts from="2"}}
                             {{> loop}}
-                        {{/is}}
-                    {{/foreach}}
+                        {{/foreach}}
+                    {{else}}
+                        {{#foreach posts}}
+                            {{> loop}}
+                        {{/foreach}}
+                    {{/is}}
                 </div>
+
+                {{#match posts.length "=" 1}}
+                    Additional issues will be published soon.
+                {{/match}}
 
                 <button class="gh-loadmore gh-btn">Load more issues</button>
             </section>
