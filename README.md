@@ -4,6 +4,6 @@ A [Ghost](https://github.com/tryghost/ghost/) theme made for [Lamù.AI](https://
 
 # Copyright & License
 
-Original work Copyright (c) 2013-2021 Ghost Foundation - Released under the [MIT license](LICENSE).
+Original work Copyright (c) 2013-2022 Ghost Foundation - Released under the [MIT license](LICENSE).
 
-Modified work Copyright (c) 2021 Greta Remzi - Released under the [MIT license](LICENSE).
+Modified work Copyright (c) 2021-2022 Greta Lamù Renzi - Released under the [MIT license](LICENSE).
